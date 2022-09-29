@@ -1,0 +1,34 @@
+.cabecalho {
+    background: var(--azul-escuro);
+    padding: 10px 0;
+}
+
+.caixa {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar_lista {
+    display: flex;
+}
+
+.navbar_lista__item___link {
+    text-transform: uppercase;
+    color: var(--branco);
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navbar_lista__item___link:last-child {
+    padding-right: 0;
+}
+
+.navbar_lista__item___link:hover, .navbar_lista__item___link.ativo {
+    border-bottom: 3px solid var(--branco);
+}
